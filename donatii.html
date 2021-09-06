@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-elemente-navBar.css">
+    <title>Donații</title>
+</head>
+
+<body id="donatii-background">
+    <div class="dropdown">
+        <img src="menu-icon/icons8-menu-64.png" alt="menu icon" onclick="dropdownMenu()" class="dropbtn">
+        <nav id="myDropdown" class="dropdown-content">
+            <ul>
+                <a href="index.html" id="acasa-dropdown">
+                    <li>Acasă</li>
+                </a>
+                <a href="despre-noi.html">
+                    <li>Despre Noi</li>
+                </a>
+                <a href="produse.html">
+                    <li>Produse</li>
+                </a>
+                <a href="contact.html">
+                    <li>Contact</li>
+                </a>
+                <a href="donatii.html">
+                    <li>Donații</li>
+                </a>
+            </ul>
+        </nav>
+    </div>
+
+
+    <div class="container-donatii">
+        <div id="info-donatii">
+            <h1>Donații</h1>
+            <p>Dacă doriți să ne suțineți munca și timpul acordat persoanelor cu dizabilități, va lăsăm cele două variante pe care le avem pentru a putea face acest lucru. Menționăm că donațiile vor servi pentru achiziționarea de consumabile de care avem nevoie pentru produsele pe care le confecționăm.</p>
+        </div>
+        <div id="variante-donatii">
+            <div id="iban">
+                <img src="./donatii/BRD.svg.png" alt="brd logo">
+                <h3>NUME: Asociația de Terapie Ocupațională "Speranța 2010" - Comarnic</h3>
+                <h3>IBAN: RO40BRDE300SV76714413000</h3>
+                <h3>COD SWIFT: BRDEROBU</h3>
+                <h3>MONEDA: RON</h3>
+            </div>
+            <div id="paypal">
+                <img src="donatii/paypal-logo.png" alt="paypal-logo">
+                <form action="https://www.paypal.com/donate" method="post" target="_top">
+                    <input type="hidden" name="hosted_button_id" value="E8KMNDEVGH4BQ" />
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit"
+                        title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+                    <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+                </form>
+            </div>
+        </div>
+        
+        <div class="footer footer-donatii">
+            <div class="container-footer">
+                <div id="follow">
+                    <h2>Urmarește-ne pe Facebook!</h2>
+                    <a href="https://www.facebook.com/asociatiasperanta2010" target="blank">
+                        <img src="poze-ei/fb-logo/fb-logo.png" alt="fb logo" id='fb-logo'>
+                    </a>
+                    <div id="copyW">
+                        <h3>&#169; 2021 - Asociația de Terapie Ocupațională <br> "Speranța 2010" - Comarnic</h3>
+                        <h3> <u> Website developed by Bunghez Ovidiu </u></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+        <script src="app.js"></script>
+
+</body>
+</html>

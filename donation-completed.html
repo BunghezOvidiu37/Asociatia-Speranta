@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style-elemente-navBar.css">
+
+    <title>Donation completed</title>
+</head>
+<body>
+        <nav>
+            <ul>
+                <a href="index.html">
+                    <li>Acasă</li>
+                </a>
+                <a href="despre-noi.html">
+                    <li>Despre Noi</li>
+                </a>
+                <a href="produse.html">
+                    <li>Produse</li>
+                </a>
+                <a href="contact.html">
+                    <li>Contact</li>
+                </a>
+                <a href="donatii.html">
+                    <li>Donații</li>
+                </a>
+            </ul>
+        </nav>
+    <div class="background-donations-completed">
+        <div class="completed-donation-text">
+            <h1>Thank you so much for your donation!</h1>
+        </div>
+    </div>
+
+        <div class="footer-donatii">
+            <div class="container-footer">
+                <div id="follow">
+                    <h2>Urmarește-ne pe Facebook!</h2>
+                    <a href="https://www.facebook.com/asociatiasperanta2010" target="blank">
+                        <img src="poze-ei/fb-logo/fb-logo.png" alt="fb logo" id='fb-logo'>
+                    </a>
+                    <div id="copyW">
+                        <h3>&#169; 2021 - Asociația de Terapie Ocupațională <br> "Speranța 2010" - Comarnic</h3>
+                        <h3> <u> Website developed by Bunghez Ovidiu </u></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <style>
+        body{
+            background: url('./donatii/background-donatii.jpeg') no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            width: 100vw;
+            height: 100vh;
+        }
+
+        .background-donations-completed{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .completed-donation-text{
+            background-color: rgba(255, 0, 0, 0.774);
+            width: 40vw;
+            height: 30vh;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            border-radius: 50px;
+            box-shadow: 0px 0px 90px 80px black;
+            color: white;
+            font-size: 30px;
+            text-align: center;
+        }
+
+
+        @media only screen and (max-width:800px){
+            body{
+                height: auto;
+                gap: 15vh;
+            }
+
+            .completed-donation-text{
+                width: 95vw;
+                font-size: 25px;
+            }
+
+            .background-donations-completed{
+                height: auto;
+            }
+        }
+
+    </style>
+</body>
+</html>

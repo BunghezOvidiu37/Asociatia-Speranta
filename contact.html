@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-elemente-navBar.css">
+    <title>Contact</title>
+</head>
+
+<body id="contact-body">
+<body id="donatii-background">
+    <div class="dropdown">
+        <img src="menu-icon/icons8-menu-64.png" alt="menu icon" onclick="dropdownMenu()" class="dropbtn">
+        <nav id="myDropdown" class="dropdown-content">
+            <ul>
+                <a href="index.html" id="acasa-dropdown">
+                    <li>Acasă</li>
+                </a>
+                <a href="despre-noi.html">
+                    <li>Despre Noi</li>
+                </a>
+                <a href="produse.html">
+                    <li>Produse</li>
+                </a>
+                <a href="contact.html">
+                    <li>Contact</li>
+                </a>
+                <a href="donatii.html">
+                    <li>Donații</li>
+                </a>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="container-contact">
+        <div class="mesaj-contact">
+            <h1>Contact</h1>
+            <p>Pentru comenzi de produse sau pentru a discuta, vă rugam apelați numărul: <b style="color: blue;">0722685143</b> sau completați formularul de mai jos pentru a intra în legătură cu noi!</p>
+            
+        </div>
+
+        <div class="contact-form">
+            <form action="https://formspree.io/f/mpzkklbj" method="POST">
+                <div id="informatii-contact-form">
+                    <label for="nume">Nume</label>
+                    <input type="text" placeholder="NUMELE dumneavoastră" required>
+                    
+                    <label for="tel">Telefon(Optional)</label>
+                    <input type="text" placeholder="Numarul de telefon">
+                    
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="EMAIL-ul dumneavoastră" required>
+                </div>
+                <div id="mesaj-contact-form">
+                    <label for="mesak">Mesaj</label>
+                    <div id="bottom-part-contact">
+                        <textarea name="mesaj" id="mesaj-textarea" cols="20" rows="5" required></textarea>                   
+                        <button type="submit">Trimite</button>
+                </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="footer-contact">
+        <div class="container-footer">
+            <div id="follow">
+                <h2>Urmarește-ne pe Facebook!</h2>
+                <a href="https://www.facebook.com/asociatiasperanta2010" target="blank">
+                    <img src="poze-ei/fb-logo/fb-logo.png" alt="fb logo" id='fb-logo'>
+                </a>
+                <div id="copyW">
+                    <h3>&#169; 2021 - Asociația de Terapie Ocupațională <br> "Speranța 2010" - Comarnic</h3>
+                    <h3> <u> Website developed by Bunghez Ovidiu </u></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
